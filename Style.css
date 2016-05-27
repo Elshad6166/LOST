@@ -1,0 +1,263 @@
+
+
+/* <!--Start Main--> */
+#main {
+	width: 1000px;
+	margin: 0 auto;
+	border: 1px solid #eee;
+}
+
+/* <!--End Main--> */
+
+
+/* <!--Start Header--> */
+#header {
+	width: 1000px;
+	height: 500px;
+	background-image: url("images/3.jpg");
+	background-repeat: no-repeat;
+	background-size: 1000px 500px;
+	margin: 0 auto;
+}
+.menu {
+	width: 800px;
+	margin: 0 auto;
+}
+.menu ul li {
+	display: inline-block;
+	margin-right: 20px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+.rightMenu {
+	float: right;
+	color: #4678BC;
+}
+.rightMenu ul li:first-child {
+	text-decoration: underline;
+	margin-bottom: -20px;
+}
+.leftMenu {
+	float: left;
+	color: #4678BC;
+}
+.menuIcon {
+	width: 15px;
+	height: 15px;
+}
+.centerMenu {
+	text-align: center;
+    width: 100%;
+    display: inline-block;
+    margin-top: 9%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.centerMenu p {
+	font-size: 36px;
+	color: #4678BC;
+}
+.centerMenu span {
+	font-size: 68px;
+	color: #4678BC;
+}
+.centerMenu sup {
+	color: #4678BC;
+    font-size: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.centerMenu h6 {
+	margin-top: -35px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #4678BC;
+}
+.centerMenu button {
+	height: 40px;
+	width: 140px;
+	background: #4678BC;
+	border: 1px solid white;
+	color: white;
+	font-size: 10px;
+	margin-top: 12%;
+}
+/* <!--End Header--> */
+/* <!--Start Section1--> */
+#section1 {
+	width: 800px;
+	height: 100px;
+	margin: 5% auto;
+}
+.leftSection1 {
+	width: 390px;
+	float: left;
+	font-size: 18px;
+	margin: 0 auto;
+	color: #4678BC;
+}
+.rightSection1 {
+	width: 400px;
+	height: 50px;
+	float: right;
+	font-size: 12px;
+	margin-left: 20%;
+	margin: 0 auto;
+	color: #4678BC;
+}
+/* <!--End Section1--> */
+/* <!--Start Section2--> */
+#section2 {
+	width: 1000px;
+	height: 900px;
+	background: #F3F3F3;
+	color: #4678BC;
+}
+.divBorder {
+	height: 100px;
+}
+.centerText {
+	text-align: center;
+	height: 50px;
+}
+.pictures {
+	width: 900px;
+}
+.picture1 {
+	width: 530px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: 530px 200px;
+	float: left;
+	margin-left: 12%;
+	margin-bottom: 3%;
+}
+
+.picture2 {
+	width: 230px;
+	height: 200px;
+	background-image: url("images/mac.jpg");
+	background-repeat: no-repeat;
+	background-size: 230px 200px;
+	float: right;
+	margin-bottom: 3%;
+}
+.picture3 {
+	float: left;
+	margin-left: 12%;
+}
+.picture4 {
+	width: 530px;
+	height: 200px;
+	background-image: url("images/office-computer.jpg");
+	background-repeat: no-repeat;
+	background-size: 530px 200px;
+	float: right;
+	margin-right: 0%;
+}
+.subscribe {
+	width: 792px;
+	height: 150px;
+	background: white;
+	float: left;
+	margin: 0 auto;
+	margin-left: 108px;
+	margin-top: 5%;
+	text-align: center;
+	color: #4678BC;
+}
+.subscribe p {
+	float: left;
+	text-align: center;
+	margin: 8% 0 0 7%;
+}
+.subscribeInput1 {
+	margin-top: 7%;
+	width: 300px;
+	height: 40px;
+	background: #F3F3F3;
+	font-size: 10px;
+	color: #AAAAAA;
+}
+.subscribeInput2 {
+	height: 40px;
+	width: 120px;
+	background: #343638;
+	color: white;
+	font-size: 10px;
+}
+/* <!--End Section2--> */
+/* <!--Start Section3--> */
+#section3 {
+	width: 800px;
+	height: 200px;
+	margin: 0 auto;
+	margin-top: 10%;
+}
+.bottomText1 {
+	width: 150px;
+	float: left;
+	margin: 0 auto;
+	font-size: 10px;
+	font-family: Arial;
+	color: #4678BC;
+}
+.bottomText p {
+	font-family: Arial, ;
+	color: #CACACA;
+	font-weight: lighter;
+	font-size: 10px;
+}
+.bottomText2 {
+	width: 160px;
+	float: left;
+	margin: 0 auto;
+	font-size: 10px;
+	margin-left: 50px;
+	font-family: Arial;
+	color: #4678BC;
+}
+.subscribeInput3 {
+	margin-top: 7%;
+	width: 90px;
+	height: 30px;
+	background: #F3F3F3;
+	font-size: 10px;
+	color: #CACACA;
+}
+.subscribeInput4 {
+	height: 30px;
+	width: 60px;
+	background: #343638;
+	color: white;
+	font-size: 10px;
+	color: #CACACA;
+}
+/* <!--End Section3--> */
+/* <!--Start Footer--> */
+#footer {
+	width: 800px;
+	height: 120px;
+	margin: 0 auto;
+	border-top: 2px solid #CCCCCC;
+}
+.footerMenu ul li {
+	display: inline-block;
+	margin-left: 30px;
+	font-family: Arial;
+	font-weight: lighter;
+	font-size: 12px;
+	float: right;
+}
+.footerMenu  {
+	display: inline-block;
+	width: 800px;
+	color: #4678BC;
+}
+.copyRight {
+	display: inline-block;
+	float: left;
+	font-family: Arial;
+	font-weight: lighter;
+	font-size: 12px;
+}
+/* <!--End Footer--> */
